@@ -3,7 +3,6 @@
 pragma solidity ^0.8.20;
 
 import "./ERC4626Fees.sol";
-import "./ERC4626Strategy.sol";
 
 contract Vault is ERC4626Fees  {
     address payable public vaultOwner;
